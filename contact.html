@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Testing — Cross &amp; Black Inc.</title>
+  <meta name="description" content="Request automotive battery testing from Cross & Black Inc. in Redford, Michigan. A2LA 1806.01.">
+  <link rel="icon" type="image/svg+xml" href="Assets/logo.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://crossandblack.netlify.app/contact.html">
+  <meta property="og:title" content="Request Testing — Cross &amp; Black Inc.">
+  <meta property="og:description" content="Request a test plan from the Redford laboratory.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Serif:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Assets/css/style.css">
+  <script src="Assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html"><img src="Assets/logo.svg" alt="Cross &amp; Black Inc."></a>
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="capabilities.html">Capabilities</a></li>
+          <li><a href="company.html">Company</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-header" href="contact.html">Request Testing</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <header class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="Assets/photos/lift.jpg" alt="" width="2000" height="1333">
+      </div>
+      <div class="wrap">
+        <p class="eyebrow">Inquiry</p>
+        <h1>Request testing</h1>
+        <p class="lead">Name the battery, the method, the quantity, and the date you need the report. The laboratory replies during business hours.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="wrap rfq-layout">
+        <form class="contact-form" id="rfq-form" name="request-testing" method="POST" action="thank-you.html" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="request-testing">
+          <input type="hidden" name="subject" value="Cross &amp; Black — testing request">
+          <p class="hp">
+            <label>Leave blank <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+          </p>
+
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" autocomplete="organization" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="battery-type">Battery type</label>
+            <select id="battery-type" name="battery-type">
+              <option value="">Select</option>
+              <option value="lead-acid-sli">Lead-acid — SLI</option>
+              <option value="lead-acid-agm">Lead-acid — AGM</option>
+              <option value="lead-acid-other">Lead-acid — other</option>
+              <option value="lithium-12v">12V lithium-ion</option>
+              <option value="other">Other / not sure</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="standard">Standard or OEM specification</label>
+            <input id="standard" name="standard" type="text" placeholder="e.g. SAE J537, customer procedure">
+          </div>
+          <div class="field">
+            <label for="quantity">Quantity</label>
+            <input id="quantity" name="quantity" type="text">
+          </div>
+          <div class="field">
+            <label for="needed-by">Needed by</label>
+            <input id="needed-by" name="needed-by" type="text" placeholder="Date or window">
+          </div>
+          <div class="field">
+            <label for="notes">Notes</label>
+            <textarea id="notes" name="notes" required placeholder="What you need tested, and why."></textarea>
+          </div>
+          <button class="btn" type="submit">Send request</button>
+        </form>
+
+        <aside>
+          <div class="aside-block">
+            <h3>Address</h3>
+            <p>24510 Capitol St<br>Redford Township, MI 48239</p>
+          </div>
+          <div class="aside-block">
+            <h3>Hours</h3>
+            <p>Monday–Friday<br>8:00 a.m. – 5:00 p.m. Eastern</p>
+          </div>
+          <div class="aside-block">
+            <h3>Telephone</h3>
+            <p><a href="tel:+13138508306">(313) 850-8306</a></p>
+          </div>
+          <div class="aside-block">
+            <h3>Email</h3>
+            <p><a href="mailto:info@crossandblack.com">info@crossandblack.com</a><br><a href="mailto:mkaler@crossandblack.com">mkaler@crossandblack.com</a></p>
+          </div>
+          <div class="aside-block">
+            <h3>Visit</h3>
+            <p>From I-96, Telegraph Road north, then east on Capitol. The laboratory is on the right. Accessible entrance and parking. Write ahead if you need accommodation.</p>
+          </div>
+        </aside>
+      </div>
+
+      <div class="wrap map-frame">
+        <iframe title="Map of Cross &amp; Black Inc." src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.9298098007994!2d-83.28345622398696!3d42.37738943400674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824b51727b4b673%3A0x4b06679a28b6a1be!2sCross%20and%20Black!5e1!3m2!1sen!2sus!4v1763493423321!5m2!1sen!2sus" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <img src="Assets/logo.svg" alt="">
+        <p>Cross &amp; Black Inc.<br>Independent battery testing laboratory<br>Redford Township, Michigan</p>
+      </div>
+      <div>
+        <h4>Laboratory</h4>
+        <p>24510 Capitol St<br>Redford Township, MI 48239</p>
+        <p><a href="tel:+13138508306">(313) 850-8306</a><br><a href="mailto:info@crossandblack.com">info@crossandblack.com</a></p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul class="footer-links">
+          <li><a href="capabilities.html">Capabilities</a></li>
+          <li><a href="company.html">Company</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Request testing</a></li>
+          <li><a href="https://www.linkedin.com/company/cross-and-black/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>© 2026 Cross &amp; Black Inc. All rights reserved.</p>
+      <p>A2LA accredited to ISO/IEC 17025:2017. Certificate 1806.01.</p>
+      <p>Photographs from Unsplash. Laboratory photographs forthcoming.</p>
+    </div>
+  </footer>
+</body>
+</html>

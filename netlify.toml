@@ -1,0 +1,29 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/mission"
+  to = "/company"
+  status = 301
+
+[[redirects]]
+  from = "/mission.html"
+  to = "/company.html"
+  status = 301
+
+[[redirects]]
+  from = "/leadership"
+  to = "/company"
+  status = 301
+
+[[redirects]]
+  from = "/leadership.html"
+  to = "/company.html"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
