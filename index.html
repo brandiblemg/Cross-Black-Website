@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cross &amp; Black Inc. — Independent Automotive Battery Testing</title>
   <meta name="description" content="ISO/IEC 17025 accredited automotive battery testing laboratory in Redford, Michigan. A2LA 1806.01. Lead-acid and 12V lithium-ion testing since 1989.">
+  <link rel="canonical" href="https://crossandblack.netlify.app/">
   <link rel="icon" type="image/svg+xml" href="Assets/logo.svg">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://crossandblack.netlify.app/">
@@ -19,20 +20,57 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Laboratory",
-    "name": "Cross & Black Inc.",
-    "url": "https://crossandblack.netlify.app/",
-    "telephone": "+1-313-850-8306",
-    "email": "info@crossandblack.com",
-    "foundingDate": "1989",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "24510 Capitol St",
-      "addressLocality": "Redford Township",
-      "addressRegion": "MI",
-      "postalCode": "48239",
-      "addressCountry": "US"
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Cross & Black Inc.",
+        "url": "https://crossandblack.netlify.app/"
+      },
+      {
+        "@type": ["LocalBusiness", "ProfessionalService"],
+        "name": "Cross & Black Inc.",
+        "legalName": "Cross & Black Inc.",
+        "description": "Independent ISO/IEC 17025 accredited automotive battery testing laboratory in Redford, Michigan. Lead-acid and 12V lithium-ion. A2LA 1806.01.",
+        "url": "https://crossandblack.netlify.app/",
+        "telephone": "+1-313-850-8306",
+        "email": "info@crossandblack.com",
+        "foundingDate": "1989",
+        "image": "https://crossandblack.netlify.app/Assets/logo.svg",
+        "logo": "https://crossandblack.netlify.app/Assets/logo.svg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "24510 Capitol St",
+          "addressLocality": "Redford Township",
+          "addressRegion": "MI",
+          "postalCode": "48239",
+          "addressCountry": "US"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        "identifier": {
+          "@type": "PropertyValue",
+          "name": "A2LA Certificate",
+          "value": "1806.01"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/cross-and-black/",
+          "https://customer.a2la.org/index.cfm?event=directory.detail&labPID=4E9D3A93-23AF-45F9-8244-5C07146736B3"
+        ],
+        "areaServed": "US",
+        "knowsAbout": [
+          "automotive battery testing",
+          "lead-acid battery testing",
+          "12V lithium-ion battery testing",
+          "SAE J537",
+          "ISO/IEC 17025",
+          "warranty analysis"
+        ]
+      }
+    ]
   }
   </script>
 </head>
@@ -114,9 +152,47 @@
       </div>
     </section>
 
-    <figure class="photo-bleed">
-      <img src="Assets/photos/engine.jpg" alt="Close-up of an automotive engine accessory drive" width="2000" height="1333" loading="lazy">
-    </figure>
+    <section class="section" id="why">
+      <div class="wrap">
+        <p class="section-kicker">Why Cross &amp; Black</p>
+        <h2>An independent laboratory. A named method. A report that does not belong to a factory.</h2>
+        <p class="measure">OEMs and suppliers have sent work to Redford since 1989. The laboratory does not make cells and does not sell a brand of battery. The value is the record: the specification, then the data, then what the battery did.</p>
+        <ul class="spec-list">
+          <li>
+            <h3>Since 1989</h3>
+            <p>Founded on Capitol Street for independent automotive battery testing. Lead-acid first. 12V lithium-ion now in scope. Same instruction on every job.</p>
+          </li>
+          <li>
+            <h3>ISO/IEC 17025</h3>
+            <p>Accredited by A2LA in the electrical field of testing, certificate 1806.01. The current scope is public.</p>
+          </li>
+          <li>
+            <h3>The work we accept</h3>
+            <p>Electrical performance and warranty analysis. SAE and JIS methods, and customer procedures that fit the accredited ranges.</p>
+          </li>
+          <li>
+            <h3>No manufacturing interest</h3>
+            <p>The report is written for disposition, not for a brand. That is why the work comes here.</p>
+          </li>
+        </ul>
+        <p class="mb-0"><a href="company.html">The laboratory</a></p>
+      </div>
+    </section>
+
+    <section class="section" id="mission">
+      <div class="wrap split split-visual">
+        <figure class="photo-panel">
+          <img src="Assets/photos/engine.jpg" alt="Automotive engine accessory drive" width="2000" height="1333" loading="lazy">
+        </figure>
+        <div>
+          <p class="section-kicker">Mission</p>
+          <h2>Clear results. No manufacturing interest.</h2>
+          <p>We exist so a quality engineer can send a battery, name a method, and receive a report that does not belong to a factory.</p>
+          <p>Accuracy is the method as written. Insight is saying what the result means for the claim or the program — without advocacy.</p>
+          <p class="mb-0"><a href="company.html">Company</a></p>
+        </div>
+      </div>
+    </section>
 
     <section class="section">
       <div class="wrap split">
@@ -133,6 +209,9 @@
     </section>
 
     <section class="cta-band">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="Assets/photos/instruments.jpg" alt="" width="2000" height="1333">
+      </div>
       <div class="wrap">
         <p class="eyebrow">Next step</p>
         <h2>Request a test plan.</h2>
@@ -165,9 +244,14 @@
       </div>
     </div>
     <div class="wrap footer-bottom">
-      <p>© 2026 Cross &amp; Black Inc. All rights reserved.</p>
-      <p>A2LA accredited to ISO/IEC 17025:2017. Certificate 1806.01.</p>
-      <p>Photographs from Unsplash. Laboratory photographs forthcoming.</p>
+      <div>
+        <p>© 2026 Cross &amp; Black Inc. All rights reserved.</p>
+        <p>A2LA accredited to ISO/IEC 17025:2017. Certificate 1806.01.</p>
+      </div>
+      <div class="footer-credit">
+        <p>Powered by</p>
+        <p><a href="https://www.brandiblemg.com" target="_blank" rel="noopener noreferrer">Brandible Marketing Group</a></p>
+      </div>
     </div>
   </footer>
 </body>

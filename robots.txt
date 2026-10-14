@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+Disallow: /mission.html
+Disallow: /leadership.html
+
+Sitemap: https://crossandblack.netlify.app/sitemap.xml

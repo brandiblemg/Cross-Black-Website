@@ -3,7 +3,7 @@
 
 [[redirects]]
   from = "/mission"
-  to = "/company"
+  to = "/company.html"
   status = 301
 
 [[redirects]]
@@ -13,12 +13,32 @@
 
 [[redirects]]
   from = "/leadership"
-  to = "/company"
+  to = "/company.html"
   status = 301
 
 [[redirects]]
   from = "/leadership.html"
   to = "/company.html"
+  status = 301
+
+[[redirects]]
+  from = "/capabilities"
+  to = "/capabilities.html"
+  status = 301
+
+[[redirects]]
+  from = "/company"
+  to = "/company.html"
+  status = 301
+
+[[redirects]]
+  from = "/careers"
+  to = "/careers.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
   status = 301
 
 [[headers]]
